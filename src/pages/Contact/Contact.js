@@ -27,13 +27,13 @@ function Contact() {
     toast.success("Sent Successfuly");
   };
   return (
-    <div className="bg-gray-800 min-h-[100vh] " id="contact">
+    <div className="bg-stone-900 min-h-[100vh] " id="contact">
       <div className="p-1 w-full text-white font-mono text-5xl underline ">
-        <p className="mt-[5rem] italic font-serif text-center">Contact</p>
+        <p className="mt-[5rem] italic font-serif text-center">Contact Me</p>
       </div>
 
       <div className="container mx-auto  sm:mt-[5rem]">
-        <div className="w-fit mx-auto">
+        <div className="w-fit mx-auto p-5 sm:p-0">
           <form className=" text-xl" ref={form} onSubmit={sendEmail}>
             <label class="block">
               <span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-md sm:text-xl font-medium  text-white">

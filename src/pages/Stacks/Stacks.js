@@ -7,7 +7,7 @@ function Stacks() {
       <div className="p-1 w-full text-white font-mono text-5xl underline ">
         <p className="mt-[5rem] italic font-serif text-center">Stacks</p>
       </div>
-      <div className="grid md:grid-cols-2 sm:mt-[10rem]  items-center justify-center  ">
+      <div className="grid md:grid-cols-2 sm:mt-[5rem]  items-center justify-center  ">
         {StacksDetails.map((item) => {
           return (
             <div key={item.id} className="mt-4 w-fit   justify-self-center ">
