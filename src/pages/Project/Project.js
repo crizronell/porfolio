@@ -7,10 +7,10 @@ function Project() {
       <div className="p-1 w-full text-white font-mono text-5xl underline ">
         <p className="mt-[5rem] italic font-serif text-center">Projects</p>
       </div>
-      <div className=" grid items-center justify-center sm:grid-cols-[repeat(auto-fill,650px)] sm:mt-[1rem]  ">
+      <div className=" grid items-center justify-center sm:grid-cols-[repeat(auto-fill,650px)]  ">
         {ProjectDetails.map((item) => {
           return (
-            <div key={item.id} className=" m-[1rem]  ">
+            <div key={item.id} className=" m-[1rem] ">
               <a href={item.path} target="_blank" rel="noreferrer">
                 <img
                   src={item.img}
