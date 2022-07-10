@@ -14,7 +14,7 @@ function Stacks() {
               <img
                 src={item.icon}
                 alt={item.title}
-                className="w-[120px] md:w-[150px]  bg-center border "
+                className="w-[120px] md:w-[150px] bg-center sm:mt-[5rem] "
               />
               <p className="text-center mt-2 font-mono italic font-bold text-md text-white underline sm:text-xl ">
                 {item.title}
